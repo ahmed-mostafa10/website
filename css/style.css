@@ -930,14 +930,14 @@ body {
     margin-bottom: 30px;
 }
 
-.news-card{
-    width: 400px;
-    height: 650px;
-}
-
 .news-container{
     display: flex;
     gap: 60px;
+}
+
+.news-card{
+    width: 400px;
+    height: 650px;
 }
 
 .news-card-info-title{
@@ -1002,13 +1002,14 @@ body {
 
 .services-container{
     display: flex;
-    justify-content: space-evenly;
+    padding: 0 40px;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     height: 100%;
 }
 
 .service-box{
+    width: 350px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1016,6 +1017,7 @@ body {
     justify-content: center;
     gap: 15px;
     overflow: hidden;
+
 }
 
 .service-box-info{
@@ -1023,6 +1025,12 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+}
+
+.service-dbl1 , .service-dbl2{
+    width: 700px;
+    display: flex ;
+    gap: 10px;
 }
 
 .service-title{
@@ -1183,6 +1191,16 @@ footer{
     margin-bottom: 15px;
 }
 
+.mid-all-links{
+    display: flex;
+    gap: 150px;
+}
+
+.mid-links-dbl1 , .mid-links-dbl2{
+    display: flex;
+    gap: 150px;
+}
+
 .mid-foot-links {
     color: white;
     display: flex;
@@ -1247,118 +1265,282 @@ footer{
     transition: 0.2s;
 }
 
-/* ====== Laptop (≤1200px) ====== */
-@media (max-width: 768px) {
-  /* الهيدر — تحوّله عمودي */
-  .top-header-container,
-  .mid-header-container,
-  .down-header-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-  }
-
-  .mid-nav ul {
-    flex-direction: column;
-    gap: 8px;
-    text-align: center;
-  }
-
-  /* الشعار */
-  .logo img {
-    width: 100px;
-    height: auto;
-  }
-  .logo-name {
-    font-size: 20px;
-  }
-
-  /* الهيرو / البنر */
-  .main-info {
-    padding: 60px 20px;
-    justify-content: center;
-    text-align: center;
-  }
-  .main-title {
-    font-size: 36px;
-  }
-  .main-title2 {
-    font-size: 28px;
-  }
-  .main-p {
-    font-size: 16px;
-    max-width: 90%;
-  }
-  .main-btn {
-    width: 140px;
-    height: 50px;
-    font-size: 16px;
-  }
-
-  /* الكاتيجوريز */
-  .categories {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .category-box {
-    width: 100%;
-    height: 300px;
-  }
-
-  /* التريندينج / اللايك / النيوز */
-  .trending-container {
-    flex-direction: column;
-    gap: 20px;
-    left: 0;
-  }
-  .trending-container-box {
-    width: 100%;
-  }
-  .like-container {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .like-container-box {
-    width: 100%;
-  }
-  .news-container {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .news-card {
-    width: 100%;
-  }
-
-  /* الخدمات Section */
-  .services-container {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  .service-box {
-    width: 90%;
-  }
-
-  /* الفوتر */
-  footer {
-    padding: 20px;
-  }
-  .mid-footer {
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-  }
-  .top-footer {
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-  }
-  .subscribe {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .subscribe-input {
-    width: 100%;
-  }
+@media ( max-width: 768px ) {
+        .categories{
+            flex-direction: column;
+            height: auto;
+        }
+        .category-box{
+            width: 700px;
+            height: 400px;
+        }
+        .trending{
+            flex-direction: column;
+            height: auto;
+        }
+        .trending-header{
+            width: auto;
+            
+        }
+        .tabs-list a{
+            font-size: 19px;
+        }
+        .trending-header-title{
+            font-size: 23px;
+        }
+        .trending-container{
+            flex-direction: column;        
+            width: 700px;
+            left: -75px;
+        }
+        .trending-container-box{
+            width: 700px;
+            height: 500px;
+        }
+        .testimonial{
+            margin: auto;
+            width: 700px;;
+        }
+        .test-title{
+            font-size: 24px;
+        }
+        .test-p{
+            font-size: 18px;
+            width: 400px;
+        }
+        .like{
+            flex-direction: column;
+            justify-content: center;
+            height: auto;
+            margin: auto;
+        }
+        .like-container{
+            flex-direction: column;
+            height: auto;
+            margin: auto;
+        }
+        .like-container-box{
+            width: 700px;
+            height: 500px;
+        }
+        .like-second-div{
+            width: 700px;
+            height: 500px;
+        }
+        .news{
+            height: auto;
+            width: auto;;
+        }
+        .news-container{
+            flex-direction: column;
+            height: auto;
+        }
+        .news-card{
+            width: 700px;
+            height: 500px;
+        }
+        .services{
+            width: 700px;
+            height: 250px;
+            margin: auto;
+        }
+        .services-container{
+            gap: 10px;
+            border: none;
+        }
+        .service-ico{
+            font-size: 28px;
+        }
+        .service-title{
+            font-size: 16px;
+        }
+        .service-p{
+            font-size: 15px;
+        }
+        
+}
+@media ( max-width: 567px ){
+        .categories{
+            flex-direction: column;
+            height: auto;
+        }
+        .category-box{
+            width: 500px;
+            height: 400px;
+        }
+        .trending{
+            flex-direction: column;
+            height: auto;
+            padding: 0 40px;
+            padding-bottom: 40px;
+        }
+        .trending-container{
+            flex-direction: column;
+            height: auto;
+            left: -120px;
+        }
+        .trending-container-box{
+            width: 500px; 
+            height: 400px;
+        }
+        .trending-header{
+            width: 400px;
+            left: -100px;
+        }
+        .trending-header-title{
+            font-size: 17px;
+        }
+        .tabs-list a{
+            font-size: 17px;
+        }
+        .tabs-list a.activelink{
+            font-size: 17px;
+        }
+        .tabs-list{
+            gap: 10px;
+        }
+        .testimonial{
+            width: 500px;
+        }
+        .test-title{
+            font-size: 22px;
+        }
+        .test-p{
+            font-size: 18px;
+            width: 350px;
+        }
+        .test-ico{
+            font-size: 40px;
+        }
+        .right-test-ico{
+            right: 20px;
+        }
+        .left-test-ico{
+            left: 20px;
+        }
+        .trending-container-box:hover .trending-box-ico{
+            transform: translateY(320px);
+        }
+        .like{
+            width: 500px;
+            height: auto;
+            padding: 20px 20px;
+        }
+        .like-container{
+            flex-direction: column;
+            height: auto;
+            left: -480px;
+        }
+        .like-container-box{
+            width: 500px;
+            height: 400px;
+        }
+        .like-box-ico{
+            transform: translateY(390px);
+        }
+        .like-container-box:hover .like-box-ico{
+            transform: translateY(380px);
+        }
+        .news{
+            width: auto;
+            height: auto;
+            padding: 15px 20px;
+        }
+        .news-title{
+            font-size: 25px
+        }
+        .news-container{
+            flex-direction: column;
+            gap: 25px;
+        }
+        .news-card{
+            width: 500px;
+            height: 650px;
+        }
+        .services{
+            width: 520px;
+            height: auto;
+            padding: 10px 10px;
+        }
+        .service-title{
+            font-size: 15px;
+        }
+        .service-p{
+            font-size: 13px;
+        }
+        .services-container{
+            flex-direction: column;
+            width: 500px;
+            height: auto;
+            gap: 30px;
+        }
+        .service-dbl1 , .service-dbl2{
+            height: 150px;
+            padding: 20px;
+        }
+        footer{
+            width: 520px;
+            height: auto;
+            padding: 30px;
+            margin: auto;
+        }
+        .footer-title{
+            font-size: 20px;
+        }
+        .footer-p{
+            font-size: 16px;
+        }
+        .subscribe{
+            gap: 20px;
+        }
+        .subscribe-input{
+            width: 270px;
+            font-size: 18px;
+        }
+        .subscribe-btn{
+            width: 170px;
+            font-size: 18px;
+        }
+        .top-footer{
+            gap: 40px;
+            flex-direction: column;
+        }
+        .mid-footer{
+            flex-direction: column;
+        }
+        .mid-all-links{
+            flex-direction: column;
+        }
+        .foot-logo-img{
+            width: 350px;
+            height: 300px;
+        }
+        .main-info{
+            max-width:567px;
+            padding: 20px;
+        }
+        .main-title{
+            font-size: 33px;
+        }
+        .main-title2{
+            font-size: 28px;
+        }
+        .main-p{
+            font-size: 16px;
+        }
+        .main-left{
+            left: 20px;
+        }
+        .down-header-sp1{
+            font-size: 15px;
+        }
+        .down-header-sp2{
+            font-size: 16px;
+        }
+        .mid-header-container{
+            padding: 0;
+        }
+        .logo-name{
+            font-size: 18px;
+        }
 }
