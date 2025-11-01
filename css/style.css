@@ -1017,7 +1017,7 @@ body {
     justify-content: center;
     gap: 15px;
     overflow: hidden;
-
+    
 }
 
 .service-box-info{
@@ -1028,7 +1028,7 @@ body {
 }
 
 .service-dbl1 , .service-dbl2{
-    width: 700px;
+    width: 500px;
     display: flex ;
     gap: 10px;
 }
@@ -1066,7 +1066,7 @@ body {
 .service-box:hover  .service-ico2{
     opacity: 1;
     transition: 0.1s;
-    transform: translateY(-38px);
+    transform: translateY(-35px);
 }
 
 .service-p{
@@ -1369,6 +1369,7 @@ footer{
             max-height: 400px;
         }
         .trending{
+            width: 100%;
             flex-direction: column;
             height: auto;
             padding: 0 40px;
@@ -1377,11 +1378,12 @@ footer{
         .trending-container{
             flex-direction: column;
             height: auto;
-            left: -120px;
+            left: -520px;
         }
         .trending-container-box{
-            max-width: 500px;
-            max-height: 400px;
+            width: 100%;
+            /* max-width: 500px; */
+            /* max-height: 400px; */
         }
         .trending-header{
             max-width: 400px;
@@ -1458,7 +1460,7 @@ footer{
             max-height: 650px;
         }
         .services{
-            max-width: 520px;
+            width: 100%;
             height: auto;
             padding: 10px 10px;
         }
@@ -1472,16 +1474,16 @@ footer{
             flex-direction: column;
             max-width: 500px;
             height: auto;
-            gap: 30px;
+            gap: 20px;
         }
         .service-dbl1 , .service-dbl2{
-            max-height: 150px;
+            max-height: 300px;
             padding: 20px;
         }
         footer{
             max-width: 520px;
             height: auto;
-            padding: 30px;
+            padding: 15px;
             margin: auto;
         }
         .footer-title{
@@ -1542,16 +1544,5 @@ footer{
         }
         .logo-name{
             font-size: 18px;
-        }
-        .category-box,
-        .trending-container-box,
-        .like-container-box,
-        .news-card,
-        .testimonial,
-        .services,
-        footer {
-            width: 100%;
-            max-width: 100%;
-            height: auto;
         }
 }
