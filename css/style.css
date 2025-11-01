@@ -1265,7 +1265,7 @@ footer{
     transition: 0.2s;
 }
 
-@media ( max-width: 768px ) {
+/* @media ( max-width: 768px ) {
         .categories{
             flex-direction: column;
             height: auto;
@@ -1358,7 +1358,7 @@ footer{
             font-size: 15px;
         }
         
-}
+} */
 @media ( max-width: 567px ){
         .categories{
             flex-direction: column;
