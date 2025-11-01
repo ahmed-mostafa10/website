@@ -1377,7 +1377,10 @@ footer{
         .trending-container{
             flex-direction: column;
             height: auto;
-            left: -120px;
+            /* left: -120px; */
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
         }
         .trending-container-box{
             max-width: 500px;
@@ -1429,7 +1432,10 @@ footer{
         .like-container{
             flex-direction: column;
             height: auto;
-            left: -480px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            /* left: -480px; */
         }
         .like-container-box{
             max-width: 500px;
