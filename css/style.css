@@ -1365,8 +1365,8 @@ footer{
             height: auto;
         }
         .category-box{
-            width: 500px;
-            height: 400px;
+            max-width: 500px;
+            max-height: 400px;
         }
         .trending{
             flex-direction: column;
@@ -1380,11 +1380,11 @@ footer{
             left: -120px;
         }
         .trending-container-box{
-            width: 500px; 
-            height: 400px;
+            max-width: 500px;
+            max-height: 400px;
         }
         .trending-header{
-            width: 400px;
+            max-width: 400px;
             left: -100px;
         }
         .trending-header-title{
@@ -1407,7 +1407,7 @@ footer{
         }
         .test-p{
             font-size: 18px;
-            width: 350px;
+            max-width: 350px;
         }
         .test-ico{
             font-size: 40px;
@@ -1422,7 +1422,7 @@ footer{
             transform: translateY(320px);
         }
         .like{
-            width: 500px;
+            max-width: 500px;
             height: auto;
             padding: 20px 20px;
         }
@@ -1432,8 +1432,8 @@ footer{
             left: -480px;
         }
         .like-container-box{
-            width: 500px;
-            height: 400px;
+            max-width: 500px;
+            max-height: 400px;
         }
         .like-box-ico{
             transform: translateY(390px);
@@ -1454,11 +1454,11 @@ footer{
             gap: 25px;
         }
         .news-card{
-            width: 500px;
-            height: 650px;
+            max-width: 500px;
+            max-height: 650px;
         }
         .services{
-            width: 520px;
+            max-width: 520px;
             height: auto;
             padding: 10px 10px;
         }
@@ -1470,16 +1470,16 @@ footer{
         }
         .services-container{
             flex-direction: column;
-            width: 500px;
+            max-width: 500px;
             height: auto;
             gap: 30px;
         }
         .service-dbl1 , .service-dbl2{
-            height: 150px;
+            max-height: 150px;
             padding: 20px;
         }
         footer{
-            width: 520px;
+            max-width: 520px;
             height: auto;
             padding: 30px;
             margin: auto;
@@ -1494,11 +1494,11 @@ footer{
             gap: 20px;
         }
         .subscribe-input{
-            width: 270px;
+            max-width: 270px;
             font-size: 18px;
         }
         .subscribe-btn{
-            width: 170px;
+            max-width: 170px;
             font-size: 18px;
         }
         .top-footer{
@@ -1512,8 +1512,8 @@ footer{
             flex-direction: column;
         }
         .foot-logo-img{
-            width: 350px;
-            height: 300px;
+            max-width: 350px;
+            max-height: 300px;
         }
         .main-info{
             max-width:567px;
