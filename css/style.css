@@ -1549,4 +1549,15 @@ footer{
         .logo-name{
             font-size: 18px;
         }
+        .category-box,
+        .trending-container-box,
+        .like-container-box,
+        .news-card,
+        .testimonial,
+        .services,
+        footer {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
 }
